@@ -2,21 +2,34 @@
 // let arr = [1, 2, 3, 4, 5];
 // let reversedArr = [];
 // for (let i = arr.length - 1; i >= 0; i--) {
-//     reversedArr.push(arr[i]);
+//     reversedArr+= arr[i];
 // }
 // console.log(reversedArr);
 
 // let str = 'madam';
 // let reversedStr = '';
 // for (let i = str.length - 1; i >= 0; i--) {
-//     if(reversedStr += str[i]){
-//         console.log('this is palindrome');
-//     }else{
-//         console.log('this is not palindrome');
-//     }
-
+//     reversedStr += str[i];
+// }
+// if (reversedStr === str) {
+//     console.log('this is palindrome');
+// } else {
+//     console.log('this is not palindrome');
 // }
 // console.log(reversedStr);
+
+// let str = 'maham';
+// let reversedArr= '';
+// for (let i = str.length-1; i>=0; i--){
+//     reversedArr += str[i];
+// }
+// if(reversedArr===str){
+//     console.log('this is palindrome');
+// }
+// else{
+//     console.log('this is not palindrome');
+// }
+// console.log(reversedArr);
 
 // let arr = [1, 2, 3, 3, 4, 5];
 // let count = 0;
@@ -72,7 +85,7 @@
 // arr.sort((a,b)=>a-b);
 // console.log(arr);
 
-//Find the second largest and second smallest element in an array.
+// Find the second largest and second smallest element in an array.
 // let arr = [3, 5, 1, 2, 4];
 // arr.sort((a, b) => a - b);
 // console.log(arr[1], arr[arr.length - 2]);
